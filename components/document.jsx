@@ -45,7 +45,8 @@ const FormulaInput = ({ formula, variables, computeCallback }) => {
                 padding: "5px",
                 borderRadius: "5px",
                 border: "1px solid #ccc",
-                backgroundColor: "azure"
+                backgroundColor: "azure",
+                color: "black"
               }}
             />
           </label>
