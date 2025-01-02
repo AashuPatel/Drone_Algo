@@ -1,3 +1,6 @@
+body{
+    background-color: azure;
+}
 .varList{
     color: rgb(63, 63, 63);
     font-style: italic;
@@ -33,5 +36,9 @@
 
     .right ul li{
         width: 130vw;
+    }
+
+    h1{
+       font-size: 15px; 
     }
 }
