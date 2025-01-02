@@ -25,7 +25,7 @@ const FormulaInput = ({ formula, variables, computeCallback }) => {
         border: "2px solid rgba(0, 101, 252, 0.52)",
         borderRadius: "10px",
         boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-        background: "linear-gradient(to right,rgba(193, 253, 253, 0.9),rgba(233, 236, 239, 0.63))",
+        background: "linear-gradient(to right,rgba(160, 246, 248, 0.98),rgba(233, 236, 239, 0.89))",
         width: "300px",
         marginBottom: "10px",
         position: "absolute"
@@ -45,6 +45,7 @@ const FormulaInput = ({ formula, variables, computeCallback }) => {
                 padding: "5px",
                 borderRadius: "5px",
                 border: "1px solid #ccc",
+                backgroundColor: "azure"
               }}
             />
           </label>
