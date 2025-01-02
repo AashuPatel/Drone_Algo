@@ -19,6 +19,7 @@
     .cntnr{
         display: flex;
         flex-direction: column;
+        width: 100vw;
     }
 
     .left{
@@ -27,5 +28,10 @@
 
     .right{
         width: 100vw;
+    }
+
+
+    .right ul li{
+        width: 130vw;
     }
 }
