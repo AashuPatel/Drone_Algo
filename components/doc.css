@@ -1,0 +1,31 @@
+.varList{
+    color: rgb(63, 63, 63);
+    font-style: italic;
+    
+}
+
+.varList ul li{
+    padding-bottom: 20px;
+}
+
+.bld{
+    font-weight: 900;
+    font-size: 20px;   
+    color: black;
+    gap: 15px;
+}
+
+@media (max-width : 1000px){
+    .cntnr{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left{
+        width: 100vw;
+    }
+
+    .right{
+        width: 100vw;
+    }
+}
